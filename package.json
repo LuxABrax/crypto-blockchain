@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.2.4"
+    "jest": "^27.2.4",
+    "nodemon": "^2.0.13"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "hex-to-binary": "^1.0.1"
   }
 }
